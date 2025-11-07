@@ -1,6 +1,4 @@
 import 'package:test_flutter/features/auth/data/datasources/auth_remote_data.dart';
-import 'package:test_flutter/features/auth/data/models/user_model.dart';
-
 import '../entities/user_entity.dart';
 import 'auth_repository.dart';
 
