@@ -43,6 +43,9 @@ class _LoginPageState extends State<LoginPage> {
         context,
         MaterialPageRoute(builder: (_) => HomePage()),
       );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text("Xin chào ${user.name}")));
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(

@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       routes: {
-        '/login': (_) => const LoginPage(),
-        '/': (_) => const HomePage(),
+        '/': (_) => const LoginPage(),
+        '/home': (_) => const HomePage(),
       },
     );
   }
