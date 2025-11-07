@@ -209,10 +209,8 @@ class _TableCard extends StatelessWidget {
 
   Color _statusColor(String status) {
     switch (status.toLowerCase()) {
-      case 'chờ gọi':
-        return Colors.red;
       case 'chờ món':
-        return Colors.orange;
+        return Colors.red;
       case 'đủ món':
         return Colors.green;
       case 'bàn trống':

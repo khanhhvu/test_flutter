@@ -5,7 +5,7 @@ class TableRemoteData {
     await Future.delayed(const Duration(milliseconds: 500));
     final random = Random();
 
-    final statuses = ['Chờ gọi', 'Đủ món', 'Bàn trống', 'Chờ món'];
+    final statuses = ['Đủ món', 'Bàn trống', 'Chờ món'];
 
     return List.generate(9, (index) {
       final status = statuses[random.nextInt(statuses.length)];
